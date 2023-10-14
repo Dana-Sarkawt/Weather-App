@@ -1,0 +1,22 @@
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Write your global styles here, in PostCSS syntax */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+	font-family: "kurdish";
+	font-style: normal;
+	src: url('/static/fonts/Bahij.woff2') format('woff2'),
+	url('/fonts/Speda-Bold.ttf') format('truetype')
+	
+}
+:global(body){
+    font-family: "kurdish";
+}
